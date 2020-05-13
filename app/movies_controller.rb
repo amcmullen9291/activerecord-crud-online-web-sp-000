@@ -23,7 +23,7 @@ def can_be_created_with_a_hash_of_attributes
   movie = Movie.create(attributes)
 end
 
-def can_be_created_in_a_block(arg ={title: "Home Alone", release_date: 2000})
+def can_be_created_in_a_block(arg ={title: "Home Alone", release_date: 1990})
   movie = Movie.create(title:arg[:title], release_date:arg[:release_date])
 end
 
